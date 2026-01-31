@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebStudio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -21,26 +20,26 @@
     <nav aria-label="Main Navigation">
       <a href="./index.html" class="logo"><span class="color-slate-logo">Web</span>Studio</a>
       <ul>
-        <li class="color-link-header"><a href="./index.html">Studio</a></li>
-        <li class="color-link-header"><a href="#portfolio">Portfolio</a></li>
-        <li class="color-link-header"><a href="#contacts">Contacts</a></li>
+        <li><a href="./index.html" class="color-link-header">Studio</a></li>
+        <li><a href="#portfolio" class="color-link-header">Portfolio</a></li>
+        <li><a href="#contacts" class="color-link-header">Contacts</a></li>
       </ul>
     </nav>
-    <address class="address">
-      <a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="address" href="tel:+110001111111">+11 (000) 111-11-11</a>
+    <address>
+      <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
     </address>
   </header>
   <!-- #endregion header -->
   <!-- #region main -->
   <main>
     <section class="hero"><!-- Hero Section -->
-      <h1 >Effective Solutions for Your Business</h1>
+      <h1>Effective Solutions for Your Business</h1>
       <button class="button" type="button">Order Service</button>
     </section>
     <!-- #region Features -->
     <section>
-      <h2>Our Features</h2>
+      <h2 class="section-title">Our Features</h2>
       <ul>
         <li>
           <h3>Strategy</h3>
@@ -91,7 +90,7 @@
           <p class="team-position">
             Marketing
           </p>
-        </li class="team-background">
+        </li>
         <li class="team-background">
           <img src="./images/img(3).jpg" width="264" height="260" alt="Daniel Wilson, UI Designer">
           <h3 class="team-name">
@@ -105,36 +104,36 @@
     </section>
     <!-- #endregion Team -->
     <!--#region Our Portfolio -->
-<section> 
-      <h2 id="portfolio" class="section-title">Our Portfolio</h2>
+<section id="portfolio"> 
+      <h2 class="section-title">Our Portfolio</h2>
       <ul>
         <li>
-          <img src="./images/Banking_App.jpg" width="360"  alt="Banking_App">
+          <img src="./images/Banking_App.jpg" width="360" height="300" alt="Banking_App">
           <h3>Banking App</h3>
           <p>App</p>
         </li>
         <li>
-          <img src="./images/Cashless_Payment.jpg" width="360"  alt="Cashless_Payment">
+          <img src="./images/Cashless_Payment.jpg" width="360" height="300" alt="Cashless_Payment">
           <h3>Cashless Payment</h3>
           <p>Marketing</p>
         </li>
         <li>
-          <img src="./images/Meditation_App.jpg" width="360"  alt="Meditation_App">
+          <img src="./images/Meditation_App.jpg" width="360" height="300" alt="Meditation_App">
           <h3>Meditation App</h3>
           <p>App</p>
         </li>
         <li>
-          <img src="./images/Taxi_Service.jpg" width="360"  alt="Taxi_Service">
+          <img src="./images/Taxi_Service.jpg" width="360" height="300" alt="Taxi_Service">
           <h3>Taxi Service</h3>
           <p>Marketing</p>
         </li>
         <li>
-          <img src="./images/Screen_Illustrations.jpg" width="360"  alt="Screen_Illustrations">
+          <img src="./images/Screen_Illustrations.jpg" width="360" height="300" alt="Screen_Illustrations">
           <h3>Screen Illustrations</h3>
           <p>Design</p>
         </li>
         <li>
-          <img src="./images/Online_Courses.jpg" width="360" alt="Online_Courses">
+          <img src="./images/Online_Courses.jpg" width="360" height="300" alt="Online_Courses">
           <h3>Online Courses</h3>
           <p>Marketing</p>
         </li>
@@ -145,10 +144,9 @@
   <!-- #endregion main -->
   <!-- #region footer -->
   <footer class="footer">
-    <a href="./index.html" aria-label="Home"><span class="color-slate-logo">Web</span><span class="color-white">Studio</span></a>
+    <a class="footer-link" href="./index.html" aria-label="Home"><span class="color-slate-logo">Web</span><span class="color-white">Studio</span></a>
     <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
   </footer>
   <!-- #endregion footer -->
 </body>
-
 </html>
